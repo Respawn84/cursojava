@@ -41,6 +41,7 @@ public class SueldoOperarioExtendido {
 		sueldoMedio = (totalSueldos/numEmpleados);
 		System.out.println("Su empresa invierte al dia "+totalSueldos+" en sueldos de empleados");
 		System.out.println("El sueldo medio del empleado es de "+sueldoMedio+" en su empresa");
+		teclado.close();
 	}	
 }
 

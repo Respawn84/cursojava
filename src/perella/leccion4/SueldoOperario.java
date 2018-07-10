@@ -16,6 +16,7 @@ public class SueldoOperario {
 		sueldo=horasTrabajadas * costoHora;
 		System.out.print("El empleado debe cobrar:");
 		System.out.print(sueldo);
+		teclado.close();
 	}
 
 }
